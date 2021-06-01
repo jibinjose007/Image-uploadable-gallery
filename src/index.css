@@ -3,13 +3,15 @@
 
 :root{
   --primary: #E1A9DD;
-  --secondary:#5C455A;
+  --secondary:#4f0a7e;
   --error:#DB3125;
+  --background: #111;
 }
 
 body{
   font-family: "Noto Serif";
   color: var(--secondary);
+  background: var(--background);
 }
 .App{
   max-width: 960px;
